@@ -58,9 +58,8 @@ const App: React.FC = () => (
       <IonTabs>
         <IonRouterOutlet>
           <Route exact path="/offline-map">
-            <OfflineVector />
             {/* <OfflineOLMapVector/> */}
-            {/* <OfflineOLMap/> */}
+             <OfflineOLMap/>
             {/* <OfflineOLMap/> */}
             {/* <OfflineOLMap/> */}
           </Route>
